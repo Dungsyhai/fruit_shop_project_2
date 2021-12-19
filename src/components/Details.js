@@ -10,7 +10,7 @@ const Details = () => {
     const {product} = useSelector(state => state.ProductsReducer);
     useEffect(() => {
        dispatch({type: 'PRODUCT', id})
-    }, [id])
+    }, [dispatch, id])
     const decQuantity = () => {
         if(quantity > 1) {
             setQuantity(quantity-1)
