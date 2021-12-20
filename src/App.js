@@ -12,7 +12,7 @@ function App() {
     <Router>
      <Provider store={store}>
      <Nav />
-     <Route path="/" exact component={Home} />
+     <Route path="/home" exact component={Home} />
      <Route path="/cart" exact component={Cart} />
      <Route path="/details/:id" exact component={Details} />
      </Provider>
