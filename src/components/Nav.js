@@ -11,7 +11,7 @@ const Nav = () => {
             <div className="nav-text">
                 <img src="/images/logo5.png" alt="logo"/>
                 <ul className="nav-menu menu-main">
-                    <li><Link to="/home">HOME</Link></li>
+                    <li><Link to="/">HOME</Link></li>
                     <li><Link to="#">TIN TỨC</Link></li>
                     <li><Link to="#">GIỚI THIỆU</Link></li>
                     <li><Link to="#">LIÊN HỆ</Link></li>
